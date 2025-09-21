@@ -78,7 +78,7 @@ $rules = [
 
 ## 📸 Tampilan Aplikasi
 ### Halaman Utama
-![Home Page](<img width="1887" height="876" alt="image" src="https://github.com/user-attachments/assets/12a8ae55-ceb4-4a04-a175-73da6517505c" />)
+![Home Page]<img width="1887" height="876" alt="image" src="https://github.com/user-attachments/assets/12a8ae55-ceb4-4a04-a175-73da6517505c" />
 
 
 ### Form Input Preferensi
