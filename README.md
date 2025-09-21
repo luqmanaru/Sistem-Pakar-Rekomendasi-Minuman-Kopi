@@ -78,14 +78,13 @@ $rules = [
 
 ## 📸 Tampilan Aplikasi
 ### Halaman Utama
-![Home Page]<img width="1887" height="876" alt="image" src="https://github.com/user-attachments/assets/12a8ae55-ceb4-4a04-a175-73da6517505c" />
-
+<img width="1887" height="876" alt="image" src="https://github.com/user-attachments/assets/12a8ae55-ceb4-4a04-a175-73da6517505c" />
 
 ### Form Input Preferensi
-![Input Form](<img width="1881" height="862" alt="image" src="https://github.com/user-attachments/assets/26c9227a-1131-43e0-b113-7bef7ec80423" />)
+<img width="1881" height="862" alt="image" src="https://github.com/user-attachments/assets/26c9227a-1131-43e0-b113-7bef7ec80423" />
 
 ### Hasil Rekomendasi
-![Recommendation Result](<img width="1901" height="851" alt="image" src="https://github.com/user-attachments/assets/7a4c6da9-bbcc-42eb-aab8-eb90def1a39d" />)
+<img width="1901" height="851" alt="image" src="https://github.com/user-attachments/assets/7a4c6da9-bbcc-42eb-aab8-eb90def1a39d" />
 
 ## 🔧 Cara Kerja Sistem
 1. Pengguna mengisi form preferensi (rasa, tingkat kafein, aroma, dll)
