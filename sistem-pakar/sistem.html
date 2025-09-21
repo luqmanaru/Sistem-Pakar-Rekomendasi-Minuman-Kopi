@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistem Pakar Minuman Kopi</title>
+    <link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+    <header>
+        <div class="quote">
+            <p>"Coffee is a language in itself."</p>
+        </div>
+    </header>
+
+    <div class="container" id="form">
+        <h1>Sistem Pakar Rekomendasi Minuman Kopi</h1>
+        <form id="coffeeForm">
+            <label for="strength">Tingkat Kekuatan Kopi:</label>
+            <select id="strength">
+                <option value="kuat">Kuat</option>
+                <option value="sedang">Sedang</option>
+                <option value="ringan">Ringan</option>
+            </select>
+
+            <label for="flavor">Preferensi Rasa:</label>
+            <select id="flavor">
+                <option value="pahit">Pahit</option>
+                <option value="manis">Manis</option>
+                <option value="creamy">Creamy</option>
+                <option value="seimbang">Seimbang</option>
+            </select>
+
+            <label for="milk">Jenis Susu:</label>
+            <select id="milk">
+                <option value="susu">Susu</option>
+                <option value="tanpa">Tanpa Susu</option>
+            </select>
+
+            <label for="temperature">Penyajian:</label>
+            <select id="temperature">
+                <option value="biasa">Biasa</option>
+                <option value="panas">Panas</option>
+                <option value="dingin">Dingin</option>
+            </select>
+
+            <label for="topping">Topping Tambahan:</label>
+            <select id="topping">
+                <option value="tanpa">Tanpa Topping</option>
+                <option value="karamel">Karamel</option>
+                <option value="cokelat">Cokelat</option>
+                <option value="kayu manis">Kayu Manis</option>
+            </select>
+
+            <button type="button" onclick="getRecommendation()">Dapatkan Rekomendasi</button>
+        </form>
+
+        <div id="result"></div>
+    </div>
+
+    <div class="back-button">
+        <a href="../index.html" class="button">Kembali ke Beranda</a>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Sistem Pakar Minuman Kopi. All rights reserved.</p>
+        <p>Hubungi kami di <a href="mailto:info@kopiexpert.com">info@kopiexpert.com</a></p>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
